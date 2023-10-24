@@ -7,7 +7,7 @@ Welcome to Intel® Distribution for Python*'s documentation!
 ===========================================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    features
    releases
