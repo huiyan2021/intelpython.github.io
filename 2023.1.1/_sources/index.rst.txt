@@ -9,7 +9,6 @@ Welcome to Intel® Distribution for Python*'s documentation!
 .. toctree::
    :maxdepth: 1
 
-   getting_started
    features
    releases
    installation_guide
