@@ -46,12 +46,25 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Get Started with the Intel® Distribution for Python*</a></li>
 <li class="toctree-l1"><a class="reference internal" href="features.html">Features</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Releases</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Releases</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">2023.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">2023.2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#highlights">Highlights</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#known-issues">Known Issues</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#deprecation-notices">Deprecation Notices</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#deprecation-notice-for-python-3-8">Deprecation Notice for Python* 3.8</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#deprecation-of-intel-distribution-for-python-for-macos">Deprecation of Intel® Distribution for Python* for macOS*</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#deprecation-of-intel-extension-for-scikit-learn-for-macos">Deprecation of Intel® Extension for Scikit-Learn* for macOS*</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="installation_guide.html">Installation Guide</a></li>
 <li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
-<li class="toctree-l1"><a class="reference internal" href="api_doc.html">API Documentation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tuning_guide.html">Performance Tuning Guide</a></li>
 <li class="toctree-l1"><a class="reference internal" href="performance.html">Performance</a></li>
 <li class="toctree-l1"><a class="reference internal" href="publications.html">Blogs &amp; Publications</a></li>
@@ -85,6 +98,46 @@
              
   <section id="releases">
 <h1>Releases<a class="headerlink" href="#releases" title="Permalink to this heading"></a></h1>
+<p>For Intel® Distribution for Python* Release Notes prior to version 2023.2 release, please visit <a class="reference external" href="https://www.intel.com/content/www/us/en/developer/articles/release-notes/distribution-for-python-release-notes.html">this page.</a></p>
+<section id="id1">
+<h2>2023.3<a class="headerlink" href="#id1" title="Permalink to this heading"></a></h2>
+</section>
+<section id="id2">
+<h2>2023.2<a class="headerlink" href="#id2" title="Permalink to this heading"></a></h2>
+<section id="highlights">
+<h3>Highlights<a class="headerlink" href="#highlights" title="Permalink to this heading"></a></h3>
+<p>The following are new features for the release:</p>
+<ul class="simple">
+<li><p>Migrated to conda-forge dependencies for greater compatibility with rich conda-forge
+packages</p></li>
+<li><p>Excluded mpi4py from IDP to provide flexibility for customers who want to use other MPI
+vendors in their Python environment</p></li>
+<li><p>Increased glibc minimum deployment target to 2.28 for GPU components to utilize newer glib
+functionality</p></li>
+<li><p>Updated data-parallel extensions for Python packages (numba-dpex, dpctl, dpnp)</p></li>
+</ul>
+</section>
+<section id="known-issues">
+<h3>Known Issues<a class="headerlink" href="#known-issues" title="Permalink to this heading"></a></h3>
+<p>There are no known issues in the 2023.2 release at this time.</p>
+</section>
+<section id="deprecation-notices">
+<h3>Deprecation Notices<a class="headerlink" href="#deprecation-notices" title="Permalink to this heading"></a></h3>
+<section id="deprecation-notice-for-python-3-8">
+<h4>Deprecation Notice for Python* 3.8<a class="headerlink" href="#deprecation-notice-for-python-3-8" title="Permalink to this heading"></a></h4>
+<p>Beginning with the Intel® Distribution for Python* 2024.0 release, Python version 3.8 will no longer be supported.</p>
+</section>
+<section id="deprecation-of-intel-distribution-for-python-for-macos">
+<h4>Deprecation of Intel® Distribution for Python* for macOS*<a class="headerlink" href="#deprecation-of-intel-distribution-for-python-for-macos" title="Permalink to this heading"></a></h4>
+<p>This is a forewarning: Intel® Distribution for Python for macOS is obsolete, use is discouraged, and it will be phased out starting with removal from our future product release in oneAPI 2024.0</p>
+<p>Starting with the Intel® oneAPI 2024.0, Intel will no longer package or release Intel® Distribution for Python for macOS.</p>
+</section>
+<section id="deprecation-of-intel-extension-for-scikit-learn-for-macos">
+<h4>Deprecation of Intel® Extension for Scikit-Learn* for macOS*<a class="headerlink" href="#deprecation-of-intel-extension-for-scikit-learn-for-macos" title="Permalink to this heading"></a></h4>
+<p>Intel® Extension for Scikit-Learn* on macOS is now deprecated and will be discontinued in the 2024.0 release. Support for Linux*, Windows* and Windows Server* is available.</p>
+</section>
+</section>
+</section>
 </section>
 
 
