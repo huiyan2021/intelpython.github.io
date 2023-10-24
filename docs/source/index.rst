@@ -12,10 +12,8 @@ Welcome to Intel® Distribution for Python*'s documentation!
    features
    releases
    installation_guide
-   examples
    tuning_guide
    performance
-   publications
    contribution
    license
 
